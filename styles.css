@@ -21,6 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    will-change: auto;
 }
 
 .hero-banner {
@@ -30,7 +31,12 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     z-index: 0;
+    transform: scale(1);
+    transition: none;
+    pointer-events: none;
+    will-change: auto;
 }
 
 .hero-content {
